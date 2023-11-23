@@ -1,7 +1,7 @@
 
 body{
     margin: auto;
-    padding: 0px;
+    padding: 20px;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -9,5 +9,6 @@ body{
 }
 
 input {
+    margin: 100px;
     padding: 10px;
 }
