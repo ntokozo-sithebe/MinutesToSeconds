@@ -1,0 +1,13 @@
+
+body{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+input {
+    padding: 10px;
+}
