@@ -1,19 +1,21 @@
 //const input = document.querySelector['data-min']
-let minutes = +document.getElementsByTagName('input').value
-console.log(minutes * 60)
 
+let minutes = document.getElementsByTagName('input')
+let results = document.querySelector('[data-display]')
+let btnSubmit = document.getElementById('submit')
 
-function min2Sec(minutes){             
-    
-let seconds = minutes *  60 
+let min2Sec = function(){       
 
-return(seconds)
+let min = minutes.value;
+let seconds = min*60;
+results.textContent = seconds
+
 }
 
-const input = document.querySelector('[data-display]')
-input.addEventListener('input',()=>{
-    
-})
+btnSubmit.addEventListener('click', min2Sec)
+
+
+
 
 
 
