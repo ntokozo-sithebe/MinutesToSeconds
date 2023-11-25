@@ -3,12 +3,19 @@ body{
     margin: auto;
     padding: 20px;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
     background-color: palevioletred;
 }
 
-input {
-    margin: 100px;
-    padding: 10px;
+
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+input{
+    padding: 20px;
 }
